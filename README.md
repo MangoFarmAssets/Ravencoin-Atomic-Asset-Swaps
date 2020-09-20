@@ -5,7 +5,7 @@ Simple method for engaging in RVN-for-Asset Atomic Swaps for admin assets using 
 
 ## Step 1:  Alice provisions an asset UTXO for the swap ("lists the asset")
 
-*Alice sends the admin asset to herself at new address.  This generates a TXID.  Capture the TXID and VOUT for the asset UTXO.*
+*Alice sends the admin asset to herself at a new address.  This generates a TXID.  Capture the TXID and VOUT for the asset UTXO.*
 
 ```
 	LISTING ADDRESS:
