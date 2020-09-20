@@ -68,7 +68,7 @@ Output from the QT:
 
 ## Step 3. Bob signs the RVN UTXO and gives the partially-signed raw transaction to Alice ("makes the bid")
 
-*Bob uses his RVN QT to sign the RVN part of the unsigned raw transaction he got from Alice:*
+*Bob uses his RVN QT to sign the RVN part of the unsigned raw transaction he created in Step 2:*
 
 ``` 
 signrawtransaction 020000000217ecfb0319fa5ae976813dc3838cdae4ad7b3133bb3bc97aa61f8e85e65ee13d0100000000ffffffffe93fc490b373fdbc44233abc8071be7a8a97695be5b9f523fdfb22c3b7f8e6e80000000000ffffffff0300e40b54020000001976a9147c60c641bc768a0e546334104191b5081a402b6288ac80f0fa02000000001976a914046ddf8115592b2a388bf034d32f67f00b6e217988ac00000000000000003b76a914e3d7e51460a0edc7a7a101d0163293c6c35afe9188acc01f72766e74124d414e474f5f41544f4d49435f544553542100e1f505000000007500000000
